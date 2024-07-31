@@ -1,1 +1,3 @@
-# aakasmik-frontend
+# AAKASMIK:Frontend
+
+Built with Typescript and React

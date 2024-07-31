@@ -1,0 +1,315 @@
+{
+    "action_text": "Search and Find Emergency Contacts Near You",
+    "search": {
+        "label": "Popular Searches",
+        "placeholder": "Enter name, city or district"
+    },
+    "table_header": {
+        "based_on_location": "Based on your location",
+        "all_contacts": "All Contacts",
+        "search": "Search for"
+    },
+    "categories": {
+        "police": "Police",
+        "ambulance": "Ambulance",
+        "hospital": "Hospital",
+        "emergency": "Emergency",
+        "blood_bank": "Blood Bank"
+    },
+    "fields": {
+        "name": {
+            "title": "Name",
+            "placeholder": "Enter the number name",
+            "error": "Please enter the valid name"
+        },
+        "number": {
+            "title": "Number",
+            "placeholder": "Enter the number",
+            "error": "Please enter the valid number"
+        },
+        "category": {
+            "title": "Category",
+            "placeholder": "Select the number category",
+            "error": "Please select the category"
+        },
+        "province": {
+            "title": "Province",
+            "placeholder": "Select the province",
+            "error": "Please select the province"
+        },
+        "district": {
+            "title": "District",
+            "placeholder": "Select the district",
+            "error": "Please select the district"
+        },
+        "city": {
+            "title": "City",
+            "placeholder": "Enter the City",
+            "error": "Please enter the valid city name"
+        },
+        "latitude": {
+            "title": "Latitude",
+            "placeholder": "Enter the Latitude",
+            "error": "Please enter the valid latitude"
+        },
+        "longitude": {
+            "title": "Longitude",
+            "placeholder": "Enter the Longitude",
+            "error": "Please enter the valid longitude"
+        },
+        "location": {
+            "title": "Location",
+            "placeholder": "Enter the location",
+            "error": "Please enter the valid location"
+        }
+    },
+    "card": {
+        "call": "Call",
+        "map": "View on Map"
+    },
+    "footer": {
+        "add_contact": "Add a contact",
+        "about": "About Aakasmik",
+        "contribute": "Contribute"
+    },
+    "contribute_form": {
+        "title": "Contribute a new contact",
+        "submit": "Submit",
+        "success_title": "Submission Successful",
+        "success_body": "Thank you for your contribution. Your submitted number will be published once it is reviewed.",
+        "got_it": "Got it"
+    },
+    "about": {
+        "about_project": "Aakasmik aims to centralize all the emergency contacts of Nepal in one place to make them accessible and open to the public.  This is an open-source project and is open to any kind of contribution from people like you.",
+        "disclaimer": "Disclaimer: The contacts included in this project have been gathered from multiple sources. There is no guarantee of their complete accuracy or validity. Users should proceed at their own discretion."
+    },
+    "provinces": {
+        "koshi": {
+            "title": "Koshi",
+            "districts": {
+                "bhojpur": {
+                    "title": "Bhojpur"
+                },
+                "dhankuta": {
+                    "title": "Dhankuta"
+                },
+                "morang": {
+                    "title": "Morang"
+                },
+                "sunsari": {
+                    "title": "Sunsari"
+                },
+                "sankhuwasabha": {
+                    "title": "Sankhuwasabha"
+                },
+                "terhathum": {
+                    "title": "Terhathum"
+                }
+            }
+        },
+        "madhesh": {
+            "title": "Madhesh",
+            "districts": {
+                "saptari": {
+                    "title": "Saptari"
+                },
+                "siraha": {
+                    "title": "Siraha"
+                },
+                "dhanusha": {
+                    "title": "Dhanusha"
+                },
+                "mahottari": {
+                    "title": "Mahottari"
+                },
+                "sarlahi": {
+                    "title": "Sarlahi"
+                },
+                "rautahat": {
+                    "title": "Rautahat"
+                },
+                "bara": {
+                    "title": "Bara"
+                },
+                "parsa": {
+                    "title": "Parsa"
+                }
+            }
+        },
+        "bagmati": {
+            "title": "Bagmati",
+            "districts": {
+                "bhaktapur": {
+                    "title": "Bhaktapur"
+                },
+                "dhading": {
+                    "title": "Dhading"
+                },
+                "kathmandu": {
+                    "title": "Kathmandu"
+                },
+                "kavrepalanchok": {
+                    "title": "Kavrepalanchok"
+                },
+                "lalitpur": {
+                    "title": "Lalitpur"
+                },
+                "nuwakot": {
+                    "title": "Nuwakot"
+                },
+                "rasuwa": {
+                    "title": "Rasuwa"
+                },
+                "sindhupalchok": {
+                    "title": "Sindhupalchok"
+                },
+                "chitwan": {
+                    "title": "Chitwan"
+                },
+                "makwanpur": {
+                    "title": "Makwanpur"
+                }
+            }
+        },
+        "gandaki": {
+            "title": "Gandaki",
+            "districts": {
+                "gorkha": {
+                    "title": "Gorkha"
+                },
+                "kaski": {
+                    "title": "Kaski"
+                },
+                "lamjung": {
+                    "title": "Lamjung"
+                },
+                "syangja": {
+                    "title": "Syangja"
+                },
+                "tanahun": {
+                    "title": "Tanahun"
+                },
+                "manang": {
+                    "title": "Manang"
+                },
+                "mustang": {
+                    "title": "Mustang"
+                },
+                "myagdi": {
+                    "title": "Myagdi"
+                },
+                "parbat": {
+                    "title": "Parbat"
+                },
+                "baglung": {
+                    "title": "Baglung"
+                }
+            }
+        },
+        "lumbini": {
+            "title": "Lumbini",
+            "districts": {
+                "kapilvastu": {
+                    "title": "Kapilvastu"
+                },
+                "rupandehi": {
+                    "title": "Rupandehi"
+                },
+                "arghakhanchi": {
+                    "title": "Arghakhanchi"
+                },
+                "gulmi": {
+                    "title": "Gulmi"
+                },
+                "palpa": {
+                    "title": "Palpa"
+                },
+                "dang": {
+                    "title": "Dang"
+                },
+                "pyuthan": {
+                    "title": "Pyuthan"
+                },
+                "rolpa": {
+                    "title": "Rolpa"
+                },
+                "rukumEast": {
+                    "title": "Rukum East"
+                },
+                "banke": {
+                    "title": "Banke"
+                },
+                "bardiya": {
+                    "title": "Bardiya"
+                }
+            }
+        },
+        "karnali": {
+            "title": "Karnali",
+            "districts": {
+                "dolpa": {
+                    "title": "Dolpa"
+                },
+                "humla": {
+                    "title": "Humla"
+                },
+                "jumla": {
+                    "title": "Jumla"
+                },
+                "kalikot": {
+                    "title": "Kalikot"
+                },
+                "mugu": {
+                    "title": "Mugu"
+                },
+                "surkhet": {
+                    "title": "Surkhet"
+                },
+                "dailekh": {
+                    "title": "Dailekh"
+                },
+                "jajarkot": {
+                    "title": "Jajarkot"
+                },
+                "rukumWest": {
+                    "title": "Rukum West"
+                },
+                "salyan": {
+                    "title": "Salyan"
+                }
+            }
+        },
+        "sudurpashchim": {
+            "title": "Sudurpashchim",
+            "districts": {
+                "kailali": {
+                    "title": "Kailali"
+                },
+                "achham": {
+                    "title": "Achham"
+                },
+                "doti": {
+                    "title": "Doti"
+                },
+                "bajhang": {
+                    "title": "Bajhang"
+                },
+                "bajura": {
+                    "title": "Bajura"
+                },
+                "kanchanpur": {
+                    "title": "Kanchanpur"
+                },
+                "dadeldhura": {
+                    "title": "Dadeldhura"
+                },
+                "baitadi": {
+                    "title": "Baitadi"
+                },
+                "darchula": {
+                    "title": "Darchula"
+                }
+            }
+        }
+    }
+}
