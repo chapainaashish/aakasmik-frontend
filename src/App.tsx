@@ -77,7 +77,7 @@ const App = () => {
   }, [allContactsFull]);
 
   const handlePageChange = useCallback(
-    (event: React.ChangeEvent<unknown>, value: number) => {
+    (_event: React.ChangeEvent<unknown>, value: number) => {
       setPage(value);
       setAllContacts(allContactsFull.slice((value - 1) * 10, value * 10));
     },
