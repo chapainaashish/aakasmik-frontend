@@ -7,7 +7,7 @@ interface Props {
   handlePageChange: (
     event: React.ChangeEvent<unknown>,
     value: number
-  ) => Promise<void>;
+  ) => void;
 }
 export default function BottomPagination({ page, handlePageChange }: Props) {
   return (

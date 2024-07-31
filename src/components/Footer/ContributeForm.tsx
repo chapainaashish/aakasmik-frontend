@@ -50,7 +50,7 @@ export default function ContributeForm({ onFormClicked }: Props) {
   const { t } = useTranslation();
   const categories = t("categories", { returnObjects: true });
   const provinces = t("provinces", { returnObjects: true }) as Provinces;
-  const [selectedProvince, setSelectedProvince] = useState<string>("");
+  const [, setSelectedProvince] = useState<string>("");
   const [districts, setDistricts] = useState<{ [key: string]: District }>({});
   const [showDistrict, setShowDistrict] = useState(false);
   const [formSuccess, setFormSuccess] = useState(false);
@@ -68,10 +68,8 @@ export default function ContributeForm({ onFormClicked }: Props) {
   const {
     handleSubmit,
     control,
-    formState: { errors, isValid },
+    formState: { errors },
     setValue,
-    setError,
-    clearErrors,
     reset,
   } = useForm<FormData>({
     resolver: zodResolver(schema),
