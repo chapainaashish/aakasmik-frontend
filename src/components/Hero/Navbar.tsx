@@ -1,5 +1,5 @@
 import Stack from "@mui/material/Stack";
-import { Box, Container, IconButton, Typography } from "@mui/material";
+import { Box, Container, IconButton } from "@mui/material";
 import { FaMoon } from "react-icons/fa";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import { useTranslation } from "react-i18next";
@@ -25,11 +25,7 @@ interface Props {
   darkMode: boolean;
   onThemeToggle: () => void;
 }
-const brandTextStyle = {
-  paddingTop: "5px",
-  fontWeight: "bold",
-  fontSize: "1rem",
-};
+
 
 function NavBar({ darkMode, onThemeToggle }: Props) {
   const { i18n } = useTranslation();
