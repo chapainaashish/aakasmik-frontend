@@ -1,5 +1,7 @@
 import { Box, Container, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
+import logo from "../../assets/logo.png";
+
 
 const containerStyles = {
   display: "flex",
@@ -12,10 +14,6 @@ const containerStyles = {
   padding: "30px",
 };
 
-const typographyStyles = {
-  fontWeight: "bold",
-  fontSize: { xs: "1.5rem", sm: "2.5rem" },
-};
 
 const searchTermsStyles = {
   textDecoration: "underline",
@@ -41,7 +39,7 @@ const FooterLink = ({ onFormClicked, onAboutClicked }: Props) => {
   return (
     <Box>
       <Container sx={containerStyles}>
-        <Typography sx={typographyStyles}>aakasmik</Typography>
+      <img src={logo} alt="Logo" height="40" /> 
         <Box sx={BoxStyle}>
           <Typography
             component="a"

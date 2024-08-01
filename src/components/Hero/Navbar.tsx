@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 
 import nepaliFlag from "../../assets/nepali.png";
 import englishFlag from "../../assets/english.png";
+import logo from "../../assets/logo.png";
 
 const appBarStyles = {
   height: 60,
@@ -50,7 +51,7 @@ function NavBar({ darkMode, onThemeToggle }: Props) {
     <Box sx={appBarStyles}>
       <Container>
         <Stack direction="row" spacing={2} justifyContent="space-between">
-          <Typography sx={brandTextStyle}>aakasmik</Typography>
+          <img src={logo} alt="Logo" height="40" /> {/* Replace text with logo */}
           <Stack direction="row" spacing={5}>
             <IconButton onClick={handleLanguageChange}>
               <img
