@@ -23,7 +23,7 @@ const fetchContacts = () => {
 
   const fetchNearestContactsIPInfo = async () => {
     const permissionStatus = await navigator.permissions.query({ name: 'geolocation' });
-
+  
     if (permissionStatus.state === 'granted') {
       const position = await new Promise<GeolocationPosition>(
         (resolve, reject) => navigator.geolocation.getCurrentPosition(resolve, reject)
@@ -31,8 +31,8 @@ const fetchContacts = () => {
       const { latitude, longitude } = position.coords;
       return fetchContactsByCoordinates(latitude, longitude);
     } else {
-      const user_data = await axios.get(`https://ip-api.com/json`);
-      const { lat: latitude, lon: longitude } = user_data.data;
+      const user_data = await axios.get(`https://ipapi.co/json`);
+      const { latitude, longitude } = user_data.data;
       return fetchContactsByCoordinates(latitude, longitude);
     }
   };
