@@ -31,7 +31,7 @@ const fetchContacts = () => {
       const { latitude, longitude } = position.coords;
       return fetchContactsByCoordinates(latitude, longitude);
     } else {
-      const user_data = await axios.get(`http://ip-api.com/json`);
+      const user_data = await axios.get(`https://ip-api.com/json`);
       const { lat: latitude, lon: longitude } = user_data.data;
       return fetchContactsByCoordinates(latitude, longitude);
     }
