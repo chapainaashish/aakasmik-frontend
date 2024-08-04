@@ -84,7 +84,7 @@ export default function About({ onAboutClicked }: Props) {
               {t("about.disclaimer")}
             </Typography>
             <Stack direction="row" spacing={2}>
-            <IconButton onClick={() => window.open('https://github.com/chapainaashish/aakasmik', '_blank')}>
+            <IconButton onClick={() => window.open('https://github.com/chapainaashish/aakasmik-frontend', '_blank')}>
                 <GitHubIcon />
                 <Typography sx={{marginLeft: "5px"}}>{t("footer.contribute")}</Typography>
               </IconButton>
