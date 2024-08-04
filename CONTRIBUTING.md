@@ -1,16 +1,3 @@
-# Aakasmik Frontend
-
-Aakasmik aims to centralize all the emergency contacts of Nepal in one place to make them accessible and open to the public. This is an open-source project and is open to any kind of contribution from people like you.
-
-
-This github repository contains of frontend react application of aakasmik. 
-You can visit this application live on: https://aakasmik.vercel.app/
-
-Technologies used;
-* React 
-* Vite
-* Typescript
-* Npm
 
 To set up and run this application locally, follow these steps:
 
