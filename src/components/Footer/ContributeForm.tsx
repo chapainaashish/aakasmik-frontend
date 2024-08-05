@@ -156,7 +156,7 @@ export default function ContributeForm({ onFormClicked }: Props) {
               bottom: 0,
               width: { xs: "90%", md: "70%", lg: "80%" },
               margin: "auto",
-              zIndex: 9999,
+              zIndex: 999999999999999999,
             }}
           >
             <Container
