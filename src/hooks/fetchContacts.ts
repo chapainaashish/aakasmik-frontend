@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = import.meta.env.VITE_API_URL
+const API_URL = import.meta.env.VITE_API_URL;
 
 const fetchContacts = () => {
   const fetchAllContacts = async () => {
@@ -23,7 +23,7 @@ const fetchContacts = () => {
 
   const fetchNearestContactsIPInfo = async () => {
     const permissionStatus = await navigator.permissions.query({ name: 'geolocation' });
-  
+
     if (permissionStatus.state === 'granted') {
       const position = await new Promise<GeolocationPosition>(
         (resolve, reject) => navigator.geolocation.getCurrentPosition(resolve, reject)
@@ -31,9 +31,16 @@ const fetchContacts = () => {
       const { latitude, longitude } = position.coords;
       return fetchContactsByCoordinates(latitude, longitude);
     } else {
-      const user_data = await axios.get(`https://ipapi.co/json`);
-      const { latitude, longitude } = user_data.data;
-      return fetchContactsByCoordinates(latitude, longitude);
+      try {
+        const user_data = await axios.get(`https://ipapi.co/json`);
+        const { latitude, longitude } = user_data.data;
+        return fetchContactsByCoordinates(latitude, longitude);
+      } catch (error) {
+        console.error("CORS issue with ipapi.co, using fallback coordinates", error);
+        const fallbackLatitude = 27.7172;
+        const fallbackLongitude = 85.3240;
+        return fetchContactsByCoordinates(fallbackLatitude, fallbackLongitude);
+      }
     }
   };
 
