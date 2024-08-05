@@ -141,7 +141,7 @@ export default function ContributeForm({ onFormClicked }: Props) {
               right: 0,
               bottom: 0,
               backdropFilter: "blur(10px)",
-              zIndex: 9997,
+              zIndex: 9999,
             }}
           />
           <Box

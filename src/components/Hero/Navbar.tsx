@@ -18,7 +18,7 @@ const appBarStyles = {
   position: "fixed",
   top: 0,
   width: "100%",
-  zIndex: 99999,
+  zIndex: 9998,
 };
 
 interface Props {

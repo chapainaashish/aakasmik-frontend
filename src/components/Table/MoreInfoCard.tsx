@@ -45,7 +45,7 @@ export default function MoreInfoCard({ contact, onClose }: Props) {
           bottom: 0,
           width: { xs: "90%", md: "70%", lg: "50%" },
           margin: "auto",
-          zIndex: 9998,
+          zIndex: 9997,
         }}
       >
         <Container>

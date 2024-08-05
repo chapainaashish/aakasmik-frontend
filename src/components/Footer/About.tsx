@@ -38,7 +38,7 @@ export default function About({ onAboutClicked }: Props) {
           bottom: 0,
           width: { xs: "90%", md: "70%", lg: "80%" },
           margin: "auto",
-          zIndex: 9999,
+          zIndex: 9997,
         }}
       >
         <Container
