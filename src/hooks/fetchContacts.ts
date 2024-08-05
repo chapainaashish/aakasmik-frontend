@@ -61,7 +61,6 @@
 
 // export default fetchContacts;
 
-
 import axios from "axios";
 const API_URL = import.meta.env.VITE_API_URL;
 
@@ -76,7 +75,7 @@ const fetchContacts = () => {
         allContactsData = JSON.parse(storedData);
       }
     } catch (error) {
-      console.error("Error reading from local storage", error);
+      alert("Error reading from local storage: " + error.message);
     }
 
     // If local storage data is empty or failed to read, fetch from server
@@ -88,10 +87,10 @@ const fetchContacts = () => {
         try {
           localStorage.setItem("allContacts", JSON.stringify(allContactsData));
         } catch (storageError) {
-          console.error("Error writing to local storage", storageError);
+          alert("Error writing to local storage: " + storageError.message);
         }
       } catch (error) {
-        console.error("Error fetching all contacts from server", error);
+        alert("Error fetching all contacts from server: " + error.message);
       }
     }
 
@@ -105,7 +104,7 @@ const fetchContacts = () => {
       );
       return response.data;
     } catch (error) {
-      console.error("Error fetching contacts by coordinates", error);
+      alert("Error fetching contacts by coordinates: " + error.message);
       throw error;
     }
   };
@@ -126,14 +125,14 @@ const fetchContacts = () => {
           const { latitude, longitude } = user_data.data;
           return fetchContactsByCoordinates(latitude, longitude);
         } catch (error) {
-          console.error("Error fetching IP info, using fallback coordinates", error);
+          alert("Error fetching IP info, using fallback coordinates: " + error.message);
           const fallbackLatitude = 27.7172;
           const fallbackLongitude = 85.3240;
           return fetchContactsByCoordinates(fallbackLatitude, fallbackLongitude);
         }
       }
     } catch (error) {
-      console.error("Error fetching nearest contacts IP info", error);
+      alert("Error fetching nearest contacts IP info: " + error.message);
       throw error;
     }
   };
@@ -146,7 +145,7 @@ const fetchContacts = () => {
       const { latitude, longitude } = position.coords;
       return fetchContactsByCoordinates(latitude, longitude);
     } catch (error) {
-      console.error("Error fetching nearest contacts using user info", error);
+      alert("Error fetching nearest contacts using user info: " + error.message);
       // Fallback to IP info
       return fetchNearestContactsIPInfo();
     }
