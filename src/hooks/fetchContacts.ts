@@ -75,7 +75,7 @@ const fetchContacts = () => {
         allContactsData = JSON.parse(storedData);
       }
     } catch (error) {
-      alert("Error reading from local storage: " + error.message);
+      alert("Error reading from local storage: " + (error as any).message);
     }
 
     // If local storage data is empty or failed to read, fetch from server
@@ -87,10 +87,10 @@ const fetchContacts = () => {
         try {
           localStorage.setItem("allContacts", JSON.stringify(allContactsData));
         } catch (storageError) {
-          alert("Error writing to local storage: " + storageError.message);
+          alert("Error writing to local storage: " + (storageError as Error).message);
         }
       } catch (error) {
-        alert("Error fetching all contacts from server: " + error.message);
+        alert("Error fetching all contacts from server: " + (error as any).message);
       }
     }
 
@@ -103,7 +103,7 @@ const fetchContacts = () => {
         `${API_URL}/contacts?latitude=${latitude}&longitude=${longitude}`
       );
       return response.data;
-    } catch (error) {
+    } catch (error: any) {
       alert("Error fetching contacts by coordinates: " + error.message);
       throw error;
     }
@@ -112,7 +112,7 @@ const fetchContacts = () => {
   const fetchNearestContactsIPInfo = async () => {
     try {
       const permissionStatus = await navigator.permissions.query({ name: 'geolocation' });
-
+  
       if (permissionStatus.state === 'granted') {
         const position = await new Promise<GeolocationPosition>(
           (resolve, reject) => navigator.geolocation.getCurrentPosition(resolve, reject)
@@ -124,15 +124,15 @@ const fetchContacts = () => {
           const user_data = await axios.get(`https://ipapi.co/json`);
           const { latitude, longitude } = user_data.data;
           return fetchContactsByCoordinates(latitude, longitude);
-        } catch (error) {
-          alert("Error fetching IP info, using fallback coordinates: " + error.message);
+        } catch (error: any) {
+          alert("Error fetching IP info, using fallback coordinates: " + (error as any).message);
           const fallbackLatitude = 27.7172;
           const fallbackLongitude = 85.3240;
           return fetchContactsByCoordinates(fallbackLatitude, fallbackLongitude);
         }
       }
     } catch (error) {
-      alert("Error fetching nearest contacts IP info: " + error.message);
+      alert("Error fetching nearest contacts IP info: " + (error as any).message);
       throw error;
     }
   };
@@ -144,7 +144,7 @@ const fetchContacts = () => {
       );
       const { latitude, longitude } = position.coords;
       return fetchContactsByCoordinates(latitude, longitude);
-    } catch (error) {
+    } catch (error: any) {
       alert("Error fetching nearest contacts using user info: " + error.message);
       // Fallback to IP info
       return fetchNearestContactsIPInfo();
