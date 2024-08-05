@@ -150,13 +150,13 @@ export default function ContributeForm({ onFormClicked }: Props) {
               justifyContent: "center",
               alignItems: "center",
               position: "fixed",
-              top: 0,
+              top: "5rem",
               left: 0,
               right: 0,
               bottom: 0,
-              width: { xs: "90%", md: "70%", lg: "80%" },
+              width: { xs: "100%", md: "100%", lg: "100%" },
               margin: "auto",
-              zIndex: 999999999999999999,
+              zIndex: 9999,
             }}
           >
             <Container
@@ -171,7 +171,7 @@ export default function ContributeForm({ onFormClicked }: Props) {
                   justifyContent: "center",
                   flexDirection: "column",
                   rowGap: "2rem",
-                  marginBottom: "2rem",
+                  marginBottom: "1rem",
                 }}
               >
                 <Box>
@@ -387,6 +387,8 @@ export default function ContributeForm({ onFormClicked }: Props) {
                   sx={{
                     display: "flex",
                     justifyContent: "center",
+                    marginTop: "-20px",
+                    marginBottom: "-20px"
                   }}
                 >
                   <ReCAPTCHA       
