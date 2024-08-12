@@ -94,7 +94,31 @@
                     "title": "धनकुटा"
                 },
                 "morang": {
-                    "title": "मोरंग"
+                    "title": "मोरङ"
+                },
+                "illam": {
+                    "title": "इलाम"
+                },
+                "jhapa": {
+                    "title": "झापा"
+                },
+                "khotang": {
+                    "title": "खोटाङ"
+                },
+                "okhaldhunga": {
+                    "title": "ओखलढुंगा"
+                },
+                "panchthar": {
+                    "title": "पाँचथर"
+                },
+                "solukhumbu": {
+                    "title": "सोलुखुम्बु"
+                },
+                "taplejung": {
+                    "title": "तप्लेजुङ"
+                },
+                "udayapur": {
+                    "title": "उदयपुर"
                 },
                 "sunsari": {
                     "title": "सुनसरी"
@@ -103,213 +127,214 @@
                     "title": "संखुवासभा"
                 },
                 "terhathum": {
-                    "title": "तेह्रथुम"
-                }
-            }
-        },
-        "madhesh": {
-            "title": "मधेश",
-            "districts": {
-                "saptari": {
-                    "title": "सप्तरी"
-                },
-                "siraha": {
-                    "title": "सिराहा"
-                },
-                "dhanusha": {
-                    "title": "धनुषा"
-                },
-                "mahottari": {
-                    "title": "महोत्तरी"
-                },
-                "sarlahi": {
-                    "title": "सर्लाही"
-                },
-                "rautahat": {
-                    "title": "रौतहट"
-                },
-                "bara": {
-                    "title": "बारा"
-                },
-                "parsa": {
-                    "title": "पर्सा"
-                }
-            }
-        },
-        "bagmati": {
-            "title": "बागमती",
-            "districts": {
-                "bhaktapur": {
-                    "title": "भक्तपुर"
-                },
-                "dhading": {
-                    "title": "धादिङ"
-                },
-                "kathmandu": {
-                    "title": "काठमाडौं"
-                },
-                "kavrepalanchok": {
-                    "title": "काभ्रेपलाञ्चोक"
-                },
-                "lalitpur": {
-                    "title": "ललितपुर"
-                },
-                "nuwakot": {
-                    "title": "नुवाकोट"
-                },
-                "rasuwa": {
-                    "title": "रसुवा"
-                },
-                "sindhupalchok": {
-                    "title": "सिन्धुपाल्चोक"
-                },
-                "chitwan": {
-                    "title": "चितवन"
-                },
-                "makwanpur": {
-                    "title": "मकवानपुर"
-                }
-            }
-        },
-        "gandaki": {
-            "title": "गण्डकी",
-            "districts": {
-                "gorkha": {
-                    "title": "गोरखा"
-                },
-                "kaski": {
-                    "title": "कास्की"
-                },
-                "lamjung": {
-                    "title": "लमजुङ"
-                },
-                "syangja": {
-                    "title": "स्याङ्जा"
-                },
-                "tanahun": {
-                    "title": "तनहुँ"
-                },
-                "manang": {
-                    "title": "मनाङ"
-                },
-                "mustang": {
-                    "title": "मुस्ताङ"
-                },
-                "myagdi": {
-                    "title": "म्याग्दी"
-                },
-                "parbat": {
-                    "title": "पर्वत"
-                },
-                "baglung": {
-                    "title": "बाग्लुङ"
-                }
-            }
-        },
-        "lumbini": {
-            "title": "लुम्बिनी",
-            "districts": {
-                "kapilvastu": {
-                    "title": "कपिलवस्तु"
-                },
-                "rupandehi": {
-                    "title": "रुपन्देही"
-                },
-                "arghakhanchi": {
-                    "title": "अर्घाखाँची"
-                },
-                "gulmi": {
-                    "title": "गुल्मी"
-                },
-                "palpa": {
-                    "title": "पाल्पा"
-                },
-                "dang": {
-                    "title": "दाङ"
-                },
-                "pyuthan": {
-                    "title": "प्युठान"
-                },
-                "rolpa": {
-                    "title": "रोल्पा"
-                },
-                "rukumEast": {
-                    "title": "रुकुम पूर्वी"
-                },
-                "banke": {
-                    "title": "बाँके"
-                },
-                "bardiya": {
-                    "title": "बर्दिया"
-                }
-            }
-        },
-        "karnali": {
-            "title": "कर्णाली",
-            "districts": {
-                "dolpa": {
-                    "title": "डोल्पा"
-                },
-                "humla": {
-                    "title": "हुम्ला"
-                },
-                "jumla": {
-                    "title": "जुम्ला"
-                },
-                "kalikot": {
-                    "title": "कालिकोट"
-                },
-                "mugu": {
-                    "title": "मुगु"
-                },
-                "surkhet": {
-                    "title": "सुर्खेत"
-                },
-                "dailekh": {
-                    "title": "दैलेख"
-                },
-                "jajarkot": {
-                    "title": "जाजरकोट"
-                },
-                "rukumWest": {
-                    "title": "रुकुम पश्चिमी"
-                },
-                "salyan": {
-                    "title": "सल्यान"
-                }
-            }
-        },
-        "sudurpashchim": {
-            "title": "सुदूरपश्चिम",
-            "districts": {
-                "kailali": {
-                    "title": "कैलाली"
-                },
-                "achham": {
-                    "title": "अछाम"
-                },
-                "doti": {
-                    "title": "डोटी"
-                },
-                "bajhang": {
-                    "title": "बझाङ"
-                },
-                "bajura": {
-                    "title": "बाजुरा"
-                },
-                "kanchanpur": {
-                    "title": "कञ्चनपुर"
-                },
-                "dadeldhura": {
-                    "title": "ददेलधुरा"
-                },
-                "baitadi": {
-                    "title": "बैतडी"
-                },
-                "darchula": {
-                    "title": "दार्चुला"
+                    "title": "तेर्हाथुम"
                 }
             }
         }
+    },
+    "madhesh": {
+        "title": "मधेश",
+        "districts": {
+            "saptari": {
+                "title": "सप्तरी"
+            },
+            "siraha": {
+                "title": "सिराहा"
+            },
+            "dhanusha": {
+                "title": "धनुषा"
+            },
+            "mahottari": {
+                "title": "महोत्तरी"
+            },
+            "sarlahi": {
+                "title": "सर्लाही"
+            },
+            "rautahat": {
+                "title": "रौतहट"
+            },
+            "bara": {
+                "title": "बारा"
+            },
+            "parsa": {
+                "title": "पर्सा"
+            }
+        }
+    },
+    "bagmati": {
+        "title": "बागमती",
+        "districts": {
+            "bhaktapur": {
+                "title": "भक्तपुर"
+            },
+            "dhading": {
+                "title": "धादिङ"
+            },
+            "kathmandu": {
+                "title": "काठमाडौं"
+            },
+            "kavrepalanchok": {
+                "title": "काभ्रेपलाञ्चोक"
+            },
+            "lalitpur": {
+                "title": "ललितपुर"
+            },
+            "nuwakot": {
+                "title": "नुवाकोट"
+            },
+            "rasuwa": {
+                "title": "रसुवा"
+            },
+            "sindhupalchok": {
+                "title": "सिन्धुपाल्चोक"
+            },
+            "chitwan": {
+                "title": "चितवन"
+            },
+            "makwanpur": {
+                "title": "मकवानपुर"
+            }
+        }
+    },
+    "gandaki": {
+        "title": "गण्डकी",
+        "districts": {
+            "gorkha": {
+                "title": "गोरखा"
+            },
+            "kaski": {
+                "title": "कास्की"
+            },
+            "lamjung": {
+                "title": "लमजुङ"
+            },
+            "syangja": {
+                "title": "स्याङ्जा"
+            },
+            "tanahun": {
+                "title": "तनहुँ"
+            },
+            "manang": {
+                "title": "मनाङ"
+            },
+            "mustang": {
+                "title": "मुस्ताङ"
+            },
+            "myagdi": {
+                "title": "म्याग्दी"
+            },
+            "parbat": {
+                "title": "पर्वत"
+            },
+            "baglung": {
+                "title": "बाग्लुङ"
+            }
+        }
+    },
+    "lumbini": {
+        "title": "लुम्बिनी",
+        "districts": {
+            "kapilvastu": {
+                "title": "कपिलवस्तु"
+            },
+            "rupandehi": {
+                "title": "रुपन्देही"
+            },
+            "arghakhanchi": {
+                "title": "अर्घाखाँची"
+            },
+            "gulmi": {
+                "title": "गुल्मी"
+            },
+            "palpa": {
+                "title": "पाल्पा"
+            },
+            "dang": {
+                "title": "दाङ"
+            },
+            "pyuthan": {
+                "title": "प्युठान"
+            },
+            "rolpa": {
+                "title": "रोल्पा"
+            },
+            "rukumEast": {
+                "title": "रुकुम पूर्वी"
+            },
+            "banke": {
+                "title": "बाँके"
+            },
+            "bardiya": {
+                "title": "बर्दिया"
+            }
+        }
+    },
+    "karnali": {
+        "title": "कर्णाली",
+        "districts": {
+            "dolpa": {
+                "title": "डोल्पा"
+            },
+            "humla": {
+                "title": "हुम्ला"
+            },
+            "jumla": {
+                "title": "जुम्ला"
+            },
+            "kalikot": {
+                "title": "कालिकोट"
+            },
+            "mugu": {
+                "title": "मुगु"
+            },
+            "surkhet": {
+                "title": "सुर्खेत"
+            },
+            "dailekh": {
+                "title": "दैलेख"
+            },
+            "jajarkot": {
+                "title": "जाजरकोट"
+            },
+            "rukumWest": {
+                "title": "रुकुम पश्चिमी"
+            },
+            "salyan": {
+                "title": "सल्यान"
+            }
+        }
+    },
+    "sudurpashchim": {
+        "title": "सुदूरपश्चिम",
+        "districts": {
+            "kailali": {
+                "title": "कैलाली"
+            },
+            "achham": {
+                "title": "अछाम"
+            },
+            "doti": {
+                "title": "डोटी"
+            },
+            "bajhang": {
+                "title": "बझाङ"
+            },
+            "bajura": {
+                "title": "बाजुरा"
+            },
+            "kanchanpur": {
+                "title": "कञ्चनपुर"
+            },
+            "dadeldhura": {
+                "title": "ददेलधुरा"
+            },
+            "baitadi": {
+                "title": "बैतडी"
+            },
+            "darchula": {
+                "title": "दार्चुला"
+            }
+        }
     }
+}
 }
